@@ -5,41 +5,70 @@ body {
 }
 
 header {
-    background-color: #000; /* Black */
+    background-color: #333; /* Dark background */
     color: #fff;
     padding: 20px;
-    text-align: center;
+    display: flex;
+    justify-content: space-between; /* Space out the elements */
+    align-items: center; /* Vertically center the elements */
 }
 
-nav ul {
+.menu-right ul {
     list-style-type: none;
     padding: 0;
+    margin: 0;
 }
 
-nav li {
+.menu-right li {
     display: inline;
     margin: 0 10px;
 }
 
-nav a {
+.menu-right a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
+    font-size: 1.2em; /* Slightly larger font size */
 }
 
-section {
+.logo h1 {
+    margin: 0;
+}
+
+section.two-column {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+
+.column {
+    flex: 1;
     padding: 20px;
+    text-align: center; /* Center text content */
+}
+
+.column img {
+    max-width: 100%;
+    height: auto;
 }
 
 section h2 {
-    color: #ffcc29; /* Jamaican yellow */
+    color: #00704a; /* Jamaican green */
+    font-size: 2em; /* Larger font size for headings */
+    margin-bottom: 20px; /* Added space below headings */
+}
+
+section p {
+    font-size: 1.1em; /* Slightly larger font size for content */
 }
 
 footer {
-    background-color: #00704a; /* Jamaican green */
+    background-color: #333; /* Dark background */
     color: #fff;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     position: fixed;
     bottom: 0;
     width: 100%;
