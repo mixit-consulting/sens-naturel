@@ -43,6 +43,12 @@ section.two-column {
     padding: 40px;
 }
 
+.top-row {
+    padding-top: 40px;
+    position: relative;
+    top: -100px;
+}
+
 .column {
     flex: 1;
     padding: 20px;
